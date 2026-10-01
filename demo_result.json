@@ -1,0 +1,54 @@
+{
+  "contract": "0x5aA5a3BC78f1753Be70c43308600bcE5474E53F3",
+  "network": "studionet",
+  "pools": [
+    {
+      "id": 0,
+      "resolve_tx": "0x989c569f233de740bc6eb244f887bbf7fe3e4d2512b13d28d7bec84695fb16d1",
+      "pool": {
+        "capacity_left": "5000000000000000000",
+        "capital": "10000000000000000000",
+        "cover_end": 1790496491,
+        "cover_start": 1790496311,
+        "evidence": [
+          {
+            "id": "jqnpfb546hy0",
+            "name": "MultiversX (EGLD) Funding and Trading Paused",
+            "reason": "EGLD trading pairs are in cancel-only mode, halting spot trading."
+          }
+        ],
+        "feed_url": "https://status.kraken.com/api/v2/incidents.json",
+        "impaired_minutes": 3,
+        "liability": "5000000000000000000",
+        "multiple": 5,
+        "premiums": "1000000000000000000",
+        "scope": "EGLD (MultiversX) spot trading on Kraken",
+        "status": "triggered",
+        "trigger_minutes": 2,
+        "underwriter": "0x6dD5E9133F0061851a0991F9Fd22b15C363bd4cc",
+        "venue": "Kraken"
+      }
+    },
+    {
+      "id": 1,
+      "resolve_tx": "0x8fdf9e734e673547b6fbca358100fa6bb275a6ac181c826781ca3c849aaf1f32",
+      "pool": {
+        "capacity_left": "5000000000000000000",
+        "capital": "10000000000000000000",
+        "cover_end": 1790496491,
+        "cover_start": 1790496311,
+        "evidence": [],
+        "feed_url": "https://status.kraken.com/api/v2/incidents.json",
+        "impaired_minutes": 0,
+        "liability": "5000000000000000000",
+        "multiple": 5,
+        "premiums": "1000000000000000000",
+        "scope": "BTC spot order placement or matching on Kraken",
+        "status": "not_triggered",
+        "trigger_minutes": 2,
+        "underwriter": "0x6dD5E9133F0061851a0991F9Fd22b15C363bd4cc",
+        "venue": "Kraken"
+      }
+    }
+  ]
+}
